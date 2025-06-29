@@ -1,23 +1,18 @@
-# Elvaro Deals Bot (для Railway)
+# Elvaro Deals Bot с парсером ManoMano
 
-## Запуск локально
-
-1. Установить зависимости:
+## Установка:
+1. Установите зависимости:
 ```bash
 pip install -r requirements.txt
 ```
 
-2. Установить переменную окружения:
-```bash
-export TELEGRAM_TOKEN=ваш_токен
-```
+2. Добавьте переменную окружения TELEGRAM_TOKEN или создайте файл `.env`.
 
-3. Запустить бота:
+3. Запустите бота:
 ```bash
 python bot.py
 ```
 
-## Railway деплой
-
-1. Установите переменную окружения `TELEGRAM_TOKEN` в Railway.
-2. Убедитесь, что в "Start Command" написано `python bot.py`
+## Команды:
+- `/start` — запуск
+- `/deals` — показать предложения (поиск "bosch")
